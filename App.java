@@ -128,10 +128,124 @@ public class App extends JFrame implements ActionListener{
 
     String[] distribuicao = {
         "null",
-        "1s¹",
-        "1s²",
-        "1s² 2s¹",
-        
+        "1s1",
+        "1s2",
+        "1s2 2s1",
+        "1s2 2s2",
+        "1s2 2s2 2p1",
+        "1s2 2s2 2p2",
+        "1s2 2s2 2p3",
+        "1s2 2s2 2p4",
+        "1s2 2s2 2p5",
+        "1s2 2s2 2p6",
+        "1s2 2s2 2p6 3s1",
+        "1s2 2s2 2p6 3s2",
+        "1s2 2s2 2p6 3s2 3p1",
+        "1s2 2s2 2p6 3s2 3p2",
+        "1s2 2s2 2p6 3s2 3p3",
+        "1s2 2s2 2p6 3s2 3p4",
+        "1s2 2s2 2p6 3s2 3p5",
+        "1s2 2s2 2p6 3s2 3p6",
+        "1s2 2s2 2p6 3s2 3p6 4s1",
+        "1s2 2s2 2p6 3s2 3p6 4s2",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d1", 
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d2",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d3",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d4",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d5",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d6",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d7",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d8",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d9",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10", 
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p1", 
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p2", 
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p3",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p4",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p5",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2", 
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d1", 
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d2",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d3",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d4",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d5",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d6",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d7",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d8",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d9",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p1",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p2",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p3",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p4",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p5",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s1",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f1",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f2",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f3",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f4",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f5",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f6",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f7",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f8",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f9",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f10",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f11",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f12",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f13",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d1",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d2",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d3",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d4",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d5",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d6",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d7",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d8",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d9",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p1",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p2",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p3",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p4",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p5",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s1",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f1",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f2",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f3",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f4",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f5",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f6",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f7",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f8",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f9",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f10",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f11",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f12",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f13",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d1",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d2",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d3",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d4",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d5",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d6",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d7",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d8",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d9",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p1",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p2",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p3",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p4",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p5",
+        "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p6",
     };
 
     JComboBox displayelements;
@@ -142,19 +256,19 @@ public class App extends JFrame implements ActionListener{
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(false);
         this.setLayout(null);
-        this.setSize(400,350);
+        this.setSize(570,300);
         this.setLocationRelativeTo(null);
 
         displayelements = new JComboBox(elements);
         displayelements.addActionListener(this);
         displayelements.setSelectedItem("null");
-        displayelements.setBounds(140,50,120,40);
+        displayelements.setBounds(225,50,120,40);
 
         textfield = new JTextField();
         textfield.setEditable(false);
         textfield.setFocusable(true);
-        textfield.setBounds(50,110,300,50);
-        textfield.setFont(new Font("Ink Free",Font.BOLD,14));
+        textfield.setBounds(0,110,570,40);
+        textfield.setFont(new Font("Ink Free",Font.BOLD,11));
 
         this.add(textfield);
         this.add(displayelements);
@@ -165,7 +279,7 @@ public class App extends JFrame implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == displayelements){
-            for(int i = 1; i<118;i++){
+            for(int i = 1; i<119;i++){
                 if((String)displayelements.getSelectedItem() == elements[i]){
                     textfield.setText(distribuicao[i]);
                 }
